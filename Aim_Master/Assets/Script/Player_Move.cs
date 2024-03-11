@@ -30,9 +30,7 @@ public class Player_Move : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;   // 마우스 커서를 화면 안에서 고정
         Cursor.visible = false;                     // 마우스 커서를 보이지 않도록 설정
-
     }
-
     void Update()  
     {
         Move();                 // 1️ 키보드 입력에 따라 이동
